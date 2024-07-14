@@ -23,6 +23,7 @@ export default function Timer(){
     return (
         <>
         <h1>Timer</h1>
+        <h2>Timer2</h2>
         <div>{time}</div>
         <button onClick={addSecondsHandler}>Add Seconds</button>
         </>
